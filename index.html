@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+ <html lang="en">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width-device-width, initial-scale-1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+    <title>My Portfolio</title>
+ 
+
+</head>
+
+
+<body>
+
+    <div id="app">
+      <div class="center">
+        <h1>{{message}}</h1>
+        
+  <nav>
+    <div class="nav-wrapper">
+      <h5  class="brand-logo right">Welcome </h5>
+      <ul id="nav-mobile" class="left ">
+        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/about">About</router-link></li>
+        <li> <router-link to="/contact">Contact</router-link></li>
+      </ul>
+    </div>
+  </nav>
+    </div>
+
+
+        <div id="view"> 
+          <router-view></router-view>
+        </div>
+    
+    </div>
+
+    
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--  vue js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- vue router link cdn -->
+    <script src="https://unpkg.com/vue-router@3.3.2/dist/vue-router.js"></script>
+    <!-- custom -->
+    <script src="vuejs/run.js"></script>    
+
+    <!-- cdn css -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+    <!-- css style --> 
+    <link rel="stylesheet" href="style/styling.css">
+
+</body>
